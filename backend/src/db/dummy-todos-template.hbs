@@ -1,0 +1,10 @@
+[
+    {{#repeat min=10 max=20}}
+    {
+        "title": "{{lorem min=2 max=4}}",
+        "description": "{{lorem min=20 max=100}}",
+        "isComplete": "{{boolean}}",
+        "dueDate": "{{daysFromNow -10 10}}"
+    }
+    {{/repeat}}
+]
